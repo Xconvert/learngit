@@ -1,3 +1,7 @@
+[从远程库克隆]
+
+git clone git@github.com:Xconvert/learngit.git
+
 [分支创建与合并]
 
 1. 创建 jiangjun 分支：git checkout -b jiangjun
