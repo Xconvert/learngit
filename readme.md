@@ -29,4 +29,22 @@
 	合并某分支到当前分支：git merge <name>
 
 	删除分支：git branch -d <name>
+
+4. 分支操作
+
+	a. 重命名远程分支对应的本地分支
+
+	git branch -m old-local-branch-name new-local-branch-name
+
+	b. 删除远程分支
+
+	git push origin :old-local-branch-name / git push --delete origin test-branch
+
+	c. 上传新命名的本地分支
+
+	git push origin  new-local-branch-name: new-local-branch-name
+
+	d. 绑定远程分支
+
+	git branch --set-upstream
 	
