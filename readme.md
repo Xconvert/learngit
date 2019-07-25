@@ -38,7 +38,7 @@
 
 	b. 删除远程分支
 
-	git push origin :old-local-branch-name / git push --delete origin test-branch
+	git push --delete origin old-branch
 
 	c. 上传新命名的本地分支
 
